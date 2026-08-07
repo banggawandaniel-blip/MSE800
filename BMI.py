@@ -1,4 +1,3 @@
-
 def main():
     # User information
     weight = 70  # weight in kilograms
@@ -24,8 +23,3 @@ def main():
         print("Category: Overweight")
     else:
         print("Category: Obese")
-
-
-# Run the program
-if __name__ == "__main__":
-    main()
