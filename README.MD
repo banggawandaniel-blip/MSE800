@@ -1,1 +1,0 @@
-This is BMI Calculator CLI Application.

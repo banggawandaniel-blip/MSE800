@@ -1,0 +1,13 @@
+Key1 = ['a', 'b', 'c', 'd', 'f', 'g', 'h', 'e', 'a']
+Value1 = [20, 3, 1, 88, 55, 92, 6, 90, 910]
+
+Key2 = ['u', 'b', 'o', 'x', 'e', 'a']
+Value2 = [200, 30, 10, 88, 55, 920]
+
+# Select key-value pairs where the value is odd
+dictionary1 = {key: value for key, value in zip(Key1, Value1) if value % 2 != 0}
+
+dictionary2 = {key: value for key, value in zip(Key2, Value2) if value % 2 != 0}
+
+print("Dictionary 1:", dictionary1)
+print("Dictionary 2:", dictionary2)
